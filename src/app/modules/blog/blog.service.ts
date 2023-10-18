@@ -5,6 +5,9 @@ import { blogFilterableFields } from './blog.constant';
 import { IBlog, IBlogFilters } from './blog.interface';
 import { Blog } from './blog.model';
 
+
+//blog service
+
 const addBlog = async (data: IBlog): Promise<IBlog | null> => {
   const blog = await Blog.create(data);
   return blog;

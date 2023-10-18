@@ -1,5 +1,8 @@
 import { Model } from 'mongoose';
 
+//blog interface
+
+
 export type IBlog = {
   image_url: string;
   title: string;

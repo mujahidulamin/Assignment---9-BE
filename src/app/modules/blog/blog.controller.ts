@@ -7,6 +7,9 @@ import pick from '../../../shared/pick';
 import { blogFilterableFields } from './blog.constant';
 import { paginationFields } from '../../../constants/pagination';
 
+//blog validation
+
+
 const addBlog: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
     const data = req.body;

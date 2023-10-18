@@ -1,6 +1,9 @@
 import { Schema, model } from 'mongoose';
 import { BlogModel, IBlog } from './blog.interface';
 
+//blog model
+
+
 const blogSchema = new Schema<IBlog>(
   {
     image_url: { type: String, default: '' },

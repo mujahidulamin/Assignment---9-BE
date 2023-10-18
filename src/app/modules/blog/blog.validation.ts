@@ -1,5 +1,8 @@
 import { z } from 'zod';
 
+//blog validation
+
+
 const updateBlogZodSchema = z.object({
   body: z.object({
     image_url: z.string().optional(),
