@@ -6,7 +6,7 @@ import validateRequest from '../../middlewares/validateRequest';
 import { NewsValidation } from './news.validation';
 const router = express.Router();
 
-// Routes
+//news routes
 router.get('/', NewsController.getAllNews);
 router.post(
   '/',

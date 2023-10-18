@@ -3,7 +3,6 @@ import { z } from 'zod';
 
 //feedback validations
 
-
 const addFeedbackZodSchema = z.object({
   name: z.string().nonempty({ message: 'Name is required' }).optional(),
   email: z.string().email({ message: 'Invalid email' }).optional(),

@@ -1,5 +1,8 @@
 import { Model } from 'mongoose';
 
+
+//news interface
+
 export type INews = {
   image_url: string;
   title: string;

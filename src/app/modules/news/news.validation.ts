@@ -1,5 +1,8 @@
 import { z } from 'zod';
 
+
+//news validations
+
 const addNewsZodSchema = z.object({
   body: z.object({
     image_url: z.string().optional(),

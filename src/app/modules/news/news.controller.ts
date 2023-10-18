@@ -7,6 +7,9 @@ import { newsFilterableFields } from './news.constant';
 import { paginationFields } from '../../../constants/pagination';
 import { NewsService } from './news.service';
 
+//news controller
+
+
 const addNews: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
     const data = req.body;

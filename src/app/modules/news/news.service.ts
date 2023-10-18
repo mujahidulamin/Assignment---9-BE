@@ -5,6 +5,9 @@ import { newsFilterableFields } from './news.constant';
 import { INews, INewsFilters } from './news.interface';
 import { News } from './news.model';
 
+//news service
+
+
 const addNews = async (data: INews): Promise<INews | null> => {
   const blog = await News.create(data);
   return blog;

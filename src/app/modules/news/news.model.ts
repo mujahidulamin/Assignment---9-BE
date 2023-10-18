@@ -1,6 +1,9 @@
 import { Schema, model } from 'mongoose';
 import { NewsModel, INews } from './news.interface';
 
+
+//news model
+
 const newsSchema = new Schema<INews>(
   {
     image_url: { type: String, default: '' },
