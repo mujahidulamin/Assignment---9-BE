@@ -1,6 +1,9 @@
 import { Schema, model } from 'mongoose';
 import { FeedbackModel, IFeedback } from './feedback.interface';
 
+//feedback model
+
+
 const feedbackSchema = new Schema<IFeedback>(
   {
     name: { type: String, required: true },

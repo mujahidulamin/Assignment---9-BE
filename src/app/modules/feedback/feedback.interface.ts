@@ -1,5 +1,8 @@
 import { Model } from 'mongoose';
 
+//feedback interface
+
+
 export type IFeedback = {
   name: string;
   email: string;

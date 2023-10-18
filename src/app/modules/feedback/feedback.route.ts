@@ -6,7 +6,8 @@ import validateRequest from '../../middlewares/validateRequest';
 import { FeedbackValidation } from './feedback.validation';
 const router = express.Router();
 
-// Routes
+//feedback routes
+
 router.get(
   '/',
   FeedbackController.getAllFeedback
