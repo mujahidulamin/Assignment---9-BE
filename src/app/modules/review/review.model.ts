@@ -1,6 +1,9 @@
 import { Schema, model } from 'mongoose';
 import { IReview, ReviewModel } from './review.interface';
 
+//review model
+
+
 const reviewSchema = new Schema<IReview>(
   {
     user_id: { type: String, required: true },
