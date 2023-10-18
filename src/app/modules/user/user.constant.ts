@@ -1,3 +1,6 @@
+//user 
+
+
 export const userSearchableFields = [
   'id',
   'name.firstName',

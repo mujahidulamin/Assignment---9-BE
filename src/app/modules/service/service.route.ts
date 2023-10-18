@@ -8,6 +8,13 @@ const router = express.Router();
 
 // Routes
 
+router.get('/getAllUpcomingServices', ServiceController.getAllUpcomingServices);
+
+
+router.get(
+  '/getServicesByCategory/:id',
+  ServiceController.getServicesByCategory
+);
 
 
 router.get(

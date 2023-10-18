@@ -7,6 +7,10 @@ import { userFilterableFields } from './user.constant';
 import { paginationFields } from '../../../constants/pagination';
 import pick from '../../../shared/pick';
 
+
+//user controller
+
+
 const getUsers: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
     const filters = pick(req.query, userFilterableFields);

@@ -4,7 +4,7 @@ import auth from '../../middlewares/auth';
 import { ENUM_USER_ROLE } from '../../../enums/user';
 const router = express.Router();
 
-// Routes
+//user route
 router.get(
   '/getAdmins',
   auth(ENUM_USER_ROLE.SUPER_ADMIN),
