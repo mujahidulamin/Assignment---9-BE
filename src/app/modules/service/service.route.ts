@@ -6,7 +6,7 @@ import validateRequest from '../../middlewares/validateRequest';
 import { ServiceValidation } from './service.validation';
 const router = express.Router();
 
-// Routes
+//service route
 
 router.get('/getAllUpcomingServices', ServiceController.getAllUpcomingServices);
 

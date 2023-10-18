@@ -1,6 +1,9 @@
 /* eslint-disable no-unused-vars */
 import { Model } from 'mongoose';
 
+
+//service interface
+
 export type IService = {
   name: string;
   price: number;

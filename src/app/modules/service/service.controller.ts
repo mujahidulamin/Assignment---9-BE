@@ -8,6 +8,9 @@ import { IService } from './service.interface';
 import { serviceFilterableFields } from './service.constant';
 import { paginationFields } from '../../../constants/pagination';
 
+
+//service controller
+
 const getAllServices = catchAsync(async (req: Request, res: Response) => {
   const filters = pick(req.query, serviceFilterableFields);
   const paginationOptions = pick(req.query, paginationFields);
