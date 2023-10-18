@@ -5,6 +5,9 @@ import { IFaq, IFaqFilters } from './faq.interface';
 import { faqFilterableFields } from './faq.constant';
 import { Faq } from './faq.model';
 
+//faq service
+
+
 const addFaq = async (data: IFaq): Promise<IFaq | null> => {
   const faq = await Faq.create(data);
   return faq;

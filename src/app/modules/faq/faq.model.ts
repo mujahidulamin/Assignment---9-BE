@@ -1,6 +1,9 @@
 import { Schema, model } from 'mongoose';
 import { FaqModel, IFaq } from './faq.interface';
 
+
+//faq model
+
 const faqSchema = new Schema<IFaq>(
   {
     question: {

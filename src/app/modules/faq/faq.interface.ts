@@ -1,5 +1,9 @@
 import { Model } from 'mongoose';
 
+
+//faq interface
+
+
 export type IFaq = {
   question: string;
   answer: string;

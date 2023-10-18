@@ -7,6 +7,9 @@ import pick from '../../../shared/pick';
 import { paginationFields } from '../../../constants/pagination';
 import { faqFilterableFields } from './faq.constant';
 
+//faq controller
+
+
 const addFaq: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
     const data = req.body;

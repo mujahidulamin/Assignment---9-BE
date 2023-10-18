@@ -1,5 +1,8 @@
 import { z } from 'zod';
 
+
+//faq validation
+
 const addFaqZodSchema = z.object({
   body: z.object({
     question: z.string().nonempty(),

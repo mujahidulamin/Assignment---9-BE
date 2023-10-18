@@ -6,7 +6,7 @@ import validateRequest from '../../middlewares/validateRequest';
 import { FaqValidation } from './faq.validation';
 const router = express.Router();
 
-// Routes
+//faq routes
 router.get(
   '/',
   FaqController.getAllFaq
