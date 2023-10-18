@@ -4,7 +4,7 @@ import validateRequest from '../../middlewares/validateRequest';
 import { AuthValidation } from './auth.validation';
 const router = express.Router();
 
-// Routes
+//auth routes
 router.post(
   '/login',
   validateRequest(AuthValidation.loginZodSchema),

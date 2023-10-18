@@ -9,6 +9,9 @@ import {
   IRefreshTokenResponse,
 } from '../../../interfaces/common';
 
+
+//auth controller
+
 const signUp: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
     const userData = req.body;

@@ -1,5 +1,8 @@
 import { z } from 'zod';
 
+
+//auth validation
+
 const loginZodSchema = z.object({
   body: z.object({
     email: z.string().email(),

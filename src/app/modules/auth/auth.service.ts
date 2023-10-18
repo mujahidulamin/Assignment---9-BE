@@ -12,6 +12,9 @@ import {
   IRefreshTokenResponse,
 } from '../../../interfaces/common';
 
+//auth service
+
+
 const signUp = async (userData: IUser) => {
   const newUSer = await User.create(userData);
   if (!newUSer) {
