@@ -6,7 +6,7 @@ import validateRequest from '../../middlewares/validateRequest';
 import { AppointmentValidation } from './appointment.validation';
 const router = express.Router();
 
-// Routes
+//booking routes
 
 router.get(
   '/getAllAppointment',

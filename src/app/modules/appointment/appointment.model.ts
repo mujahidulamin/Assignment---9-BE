@@ -5,6 +5,10 @@ import {
   IAppointment,
 } from './appointment.interface';
 
+
+
+//booking model
+
 const appointmentSchema = new Schema<IAppointment>(
   {
     userId: {type: String, required: true},
