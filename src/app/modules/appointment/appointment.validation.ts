@@ -1,5 +1,7 @@
 import { z } from 'zod';
 
+//booking validations
+
 const updateAppointmentZodSchema = z.object({
   body: z.object({
     userId: z.string().optional(),

@@ -2,6 +2,9 @@
 import { IAppointment } from './appointment.interface';
 import { Appointment } from './appointment.model';
 
+//booking service
+
+
 const addAppointment = async (
   data: IAppointment
 ): Promise<IAppointment | null> => {
