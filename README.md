@@ -2,7 +2,7 @@
 
 ## Live Site Link of this project: [Car Repair](https://car-repair-frontend.vercel.app/)
 
-## Live Site Link of this project: [Car Repair](https://car-repair-backend.vercel.app/)
+## Server Site Link of this project: [Car Repair Server](https://car-repair-backend.vercel.app/)
 
 ## User access Email Password
 
