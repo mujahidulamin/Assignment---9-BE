@@ -4,6 +4,9 @@ import mongoose from 'mongoose';
 import app from './app';
 import config from './config/index';
 
+//server
+
+
 process.on('uncaughtException', error => {
   console.error(error);
   process.exit(1);
