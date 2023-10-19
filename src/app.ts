@@ -18,7 +18,7 @@ app.use('/api/v1/', routes);
 
 // Testing
 app.get('/', async (req: Request, res: Response) => {
-  res.send('Working successfully!!');
+  res.send('Car service backend working successfully!!');
 });
 
 // Global Error Handler
