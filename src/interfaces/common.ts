@@ -1,5 +1,7 @@
 import { IGenericErrorMessage } from './error';
 
+//common 
+
 export type IGenericErrorResponse = {
   statusCode: number;
   message: string;
