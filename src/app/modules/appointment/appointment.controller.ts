@@ -4,6 +4,10 @@ import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
 import { AppointmentService } from './appointment.service';
 
+//booking controller
+
+
+
 const addAppointment: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
     const data = req.body;

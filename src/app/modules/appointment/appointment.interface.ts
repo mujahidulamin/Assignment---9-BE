@@ -1,6 +1,9 @@
 /* eslint-disable no-unused-vars */
 import { Model } from 'mongoose';
 
+
+//booking interface
+
 export enum AppointmentStatus {
   PENDING = 'pending',
   APPROVED = 'approved',
