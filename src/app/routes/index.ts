@@ -11,7 +11,7 @@ import { ReviewRoutes } from '../modules/review/review.route';
 import { NewsRoutes } from '../modules/news/news.route';
 import { CategoryRoutes } from '../modules/category/category.route';
 
-//All Routes
+//All Route
 const moduleRoutes = [
   {
     path: '/auth',
